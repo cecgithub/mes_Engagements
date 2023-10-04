@@ -1,0 +1,50 @@
+body {
+    background-image: url('img/image_fond.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 100px; /* Add margin to all content */
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .btn {
+    background-color: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 120px;
+  }
+  
+  .fa-solid.fa-plus {
+    color: white; /* Set the color of the plus icon to white */
+  }
+  .whole {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    height: 100vh; /* Optional: Make sure the container takes up the full viewport height */
+    text-align: center; /* Center text within the div */
+
+  }
+
+  h1 {
+    color: white;
+    text-align: left;
+    font-size: 70px; 
+    margin: 20px 0;
+
+  }
+
+  h2 {
+    color: white;
+  }
+   li {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    list-style-type: none; /* Supprime les puces des éléments de liste */
+    
+  }
